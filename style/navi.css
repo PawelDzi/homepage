@@ -1,0 +1,16 @@
+.date
+{
+    float: right;
+}
+
+.link
+{
+    text-decoration: none;
+    color: #d1624f;
+    font-weight: bold;
+}
+
+.link:hover
+{
+    color: #c0513e;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StronaPaweł</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/navi.css" rel="stylesheet" />
+    <link href="style/mainAboutMe.css" rel="stylesheet" />
+    <link href="style/table.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script defer src="script/script.js"></script>
+</head>
+
+<body class="container">
+    <div class="date">25.<span class="month">02</span>.2022<br>
+        <span class="season"></span>
+    </div>
+    <nav>
+        <ul class="navigation__link">
+            <li class="navigation__link"><a href="#Troche-o-Mnie" class="link">O mnie</a></li>
+            <li class="navigation__link"><a href="#Jakies-Hobby" class="link">Moje Hobby</a></li>
+            <li class="navigation__link"><a href="#Tabela" class="link">Tabela</a></li>
+        </ul>
+    </nav>
+    <h1 class="heading1">Paweł</h1>
+
+    <img class="photo" src="https://i.ibb.co/wwSqL6c/zdjecie.jpg" alt="Paweł" />
+    <div class="photo__text">
+        <a href="zdjecie.jpg" class="photo__link">Powiększ zdjęcie</a>
+    </div>
+
+    <main>
+        <h2 class="heading2" id="Troche-o-Mnie">Trochę o mnie</h2>
+        <p>
+            Na codzień pracuję w służbach mundurowych. Po pracy spędzam czas na nauce progoramowania oraz przygotowaniu
+            do
+            budowy domu. Aktualnie jestem w momencie załatwiania papierów i przygotowywania działki pod dom.
+        </p>
+
+        <h2 class="heading2" id="Jakies-Hobby">Jakieś Hobby?</h2>
+        <p>
+            Zimą, gdy jest śnieg wolne chwile spędzam na stoku jeżdżąc na snowbordzie. Oprócz aktywnego spędzania czasu,
+            lubię wieczorem przysiąść przy modelu do sklejania i odpocząć w ciszy od otaczającego hałasu.
+        </p>
+
+        <p>
+            <button class="button">Zmien kolor na <span class="changeColorButton">ciemny</span></button>
+        </p>
+
+        <div class="tableContainer">
+            <table id="Tabela" class="table">
+                <caption>Rozmiary desek snowboardowych</caption>
+                <tr>
+                    <th class="table__class table__titleColor" colspan="8">wzrost(cm)</th>
+                </tr>
+                <tr>
+                    <th class="table__class table__titleColor" rowspan="8">waga</th>
+                </tr>
+                <tr class="table__color">
+                    <td class="table__class" scope="row"></td>
+                    <td class="table__class" scope="col">&lt;155</td>
+                    <td class="table__class" scope="col">155-170</td>
+                    <td class="table__class" scope="col">165-180</td>
+                    <td class="table__class" scope="col">175-185</td>
+                    <td class="table__class" scope="col">180-190</td>
+                    <td class="table__class" scope="col">185&gt;</td>
+                </tr>
+                <tr>
+                    <td class="table__class table--color" scope="row">do 40kg</td>
+                    <td class="table__class">do 145</td>
+                    <td class="table__class">do 150</td>
+                    <td class="table__class"></td>
+                    <td class="table__class"></td>
+                    <td class="table__class"></td>
+                    <td class="table__class"></td>
+                </tr>
+                <tr>
+                    <td class="table__class table--color" scope="row">40-60kg</td>
+                    <td class="table__class">145-150</td>
+                    <td class="table__class">149-154</td>
+                    <td class="table__class">do 155</td>
+                    <td class="table__class">do 157</td>
+                    <td class="table__class">do 158</td>
+                    <td class="table__class"></td>
+                </tr>
+                <tr>
+                    <td class="table__class table--color" scope="row">60-70kg</td>
+                    <td class="table__class">149-154</td>
+                    <td class="table__class">153-156</td>
+                    <td class="table__class">154-158</td>
+                    <td class="table__class">156-159</td>
+                    <td class="table__class">157-160</td>
+                    <td class="table__class">do 160</td>
+                </tr>
+                <tr>
+                    <td class="table__class table--color" scope="row">70-80kg</td>
+                    <td class="table__class">154-156</td>
+                    <td class="table__class">155-159</td>
+                    <td class="table__class">156-160</td>
+                    <td class="table__class">158-161</td>
+                    <td class="table__class">160-162</td>
+                    <td class="table__class">161-164</td>
+                </tr>
+                <tr>
+                    <td class="table__class table--color" scope="row">80-90kg</td>
+                    <td class="table__class">155-159</td>
+                    <td class="table__class">158-160</td>
+                    <td class="table__class">159-162</td>
+                    <td class="table__class">160-162</td>
+                    <td class="table__class">162-164</td>
+                    <td class="table__class">164-166</td>
+                </tr>
+                <tr>
+                    <td class="table__class table--color" scope="row">90kg&lt;</td>
+                    <td class="table__class">&lt;159</td>
+                    <td class="table__class">&lt;160</td>
+                    <td class="table__class">&lt;161</td>
+                    <td class="table__class">&lt;162</td>
+                    <td class="table__class">&lt;164</td>
+                    <td class="table__class">&lt;166</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        2022 &copy; Paweł. Programista frontendowy zaprasza do współpracy!
+    </footer>
+</body>
+
+</html>

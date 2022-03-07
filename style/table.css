@@ -1,0 +1,47 @@
+.table
+{
+    border-collapse: collapse;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    color: #2c2c2c;
+}
+
+.table__color
+{
+    background-color: #d4d4d4;
+}
+
+.table--color
+{
+    background-color: #d4d4d4;
+}
+
+.table__titleColor
+{
+    background-color: #bbbbbb;
+}
+
+.table__class
+{
+    border: solid 1px #666;
+    text-align: center;
+    padding: 10px;
+}
+
+.table__class:hover
+{
+    background-color: #bbbbbb;
+}
+
+.tableContainer
+{
+    overflow-x: auto;
+}
+
+.navigation__link
+{
+    list-style-type: none;
+    padding: 5px;
+}
