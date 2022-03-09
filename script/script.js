@@ -1,3 +1,5 @@
+console.log("Witaj na mojej stronie");
+
 let button = document.querySelector(".button");
 let container = document.querySelector(".container");
 let changeColorButton = document.querySelector(".changeColorButton");
