@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Paweł Dzierzbicki - my page
 
 ![Pawel](https://github.com/PawelDzi/homepage/blob/main/zdjecie.jpg)
@@ -11,6 +9,5 @@ Hi i'm Paweł and I'm currently working in uniformed services. Same time ago I f
 HTML, CSS, JacaScript
 
 ## Demo 
-
 https://paweldzi.github.io/homepage/
->>>>>>> 2cd8f29bb3fead1ad101b8adadb759cc182040b8
+
