@@ -1,40 +1,49 @@
-console.log("Witaj na mojej stronie");
+{
+    function welcome() {
+        console.log("Witaj na mojej stronie");
+    }
 
-let button = document.querySelector(".js-button");
-let container = document.querySelector(".container");
-let changeColorButton = document.querySelector(".js-changeColorButton");
+    const onChangeColorClick = () => {
+        const container = document.querySelector(".container");
+        const changeColorButton = document.querySelector(".js-changeColorButton");
+        container.classList.toggle("whiteBackground") ? changeColorButton.innerText = "jasny" : changeColorButton.innerText = "ciemny";
+    };
 
-button.addEventListener("click", () => {
-    container.classList.toggle("whiteBackground");
-    if (container.classList.contains("whiteBackground"))
-    changeColorButton.innerText = "jasny";
-    else 
-    changeColorButton.innerText = "ciemny";
-});
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", onChangeColorClick);
+        welcome();
+    };
 
-let season = document.querySelector(".js-season");
-let month = document.querySelector(".js-month").innerText;
+    init();
+
+    const date = () => {
+        const season = document.querySelector(".js-season");
+        const month = document.querySelector(".js-month").innerText;
 
 
-switch (month) {
-    case "01":
-    case "02":
-    case "03":
-        season.innerText = "zima";
-        break;
+        switch (month) {
+            case "01":
+            case "02":
+            case "03":
+                season.innerText = "zima";
+                break;
 
-    case "04":
-    case "05":
-    case "06":
-        season.innerText = "wiosna";
-        break;
+            case "04":
+            case "05":
+            case "06":
+                season.innerText = "wiosna";
+                break;
 
-    case "07":
-    case "08":
-    case "09":
-        season.innerText = "lato";
-        break;
-    
-    default:
-        season.innerText = "jesień";
+            case "07":
+            case "08":
+            case "09":
+                season.innerText = "lato";
+                break;
+
+            default:
+                season.innerText = "jesień";
+        }
+    };
+    date();
 }
