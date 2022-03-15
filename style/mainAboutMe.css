@@ -21,7 +21,7 @@
     text-shadow: 1px 1px #144F1A;
 }
 
-.photo__text
+.photoText
 {
     text-align: center;
 }
@@ -43,7 +43,7 @@
     font-size: 20px;
 }
 
-.button
+.js-button
 {
     cursor: pointer;
 }

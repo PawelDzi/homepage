@@ -1,8 +1,8 @@
 console.log("Witaj na mojej stronie");
 
-let button = document.querySelector(".button");
+let button = document.querySelector(".js-button");
 let container = document.querySelector(".container");
-let changeColorButton = document.querySelector(".changeColorButton");
+let changeColorButton = document.querySelector(".js-changeColorButton");
 
 button.addEventListener("click", () => {
     container.classList.toggle("whiteBackground");
@@ -12,8 +12,8 @@ button.addEventListener("click", () => {
     changeColorButton.innerText = "ciemny";
 });
 
-let season = document.querySelector(".season");
-let month = document.querySelector(".month").innerText;
+let season = document.querySelector(".js-season");
+let month = document.querySelector(".js-month").innerText;
 
 
 switch (month) {

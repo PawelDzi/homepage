@@ -18,10 +18,10 @@
 </head>
 
 <body class="container">
-    <div class="date">25.<span class="month">02</span>.2022<br>
-        <span class="season"></span>
+    <div class="date">25.<span class="js-month">02</span>.2022<br>
+        <span class="js-season"></span>
     </div>
-    <nav>
+    <nav class="navigation">
         <ul class="navigation__link">
             <li class="navigation__link"><a href="#Troche-o-Mnie" class="link">O mnie</a></li>
             <li class="navigation__link"><a href="#Jakies-Hobby" class="link">Moje Hobby</a></li>
@@ -31,7 +31,7 @@
     <h1 class="heading1">Paweł</h1>
 
     <img class="photo" src="https://i.ibb.co/MfN2k9V/zdjecie.jpg" alt="Paweł" />
-    <div class="photo__text">
+    <div class="photoText">
         <a href="https://i.ibb.co/MfN2k9V/zdjecie.jpg" class="photo__link">Powiększ zdjęcie</a>
     </div>
 
@@ -50,17 +50,17 @@
         </p>
 
         <p>
-            <button class="button">Zmien kolor na <span class="changeColorButton">ciemny</span></button>
+            <button class="js-button">Zmien kolor na <span class="js-changeColorButton">ciemny</span></button>
         </p>
 
         <div class="tableContainer">
             <table id="Tabela" class="table">
                 <caption>Rozmiary desek snowboardowych</caption>
                 <tr>
-                    <th class="table__class table__titleColor" colspan="8">wzrost(cm)</th>
+                    <th class="table__class table--titleColor" colspan="8">wzrost(cm)</th>
                 </tr>
                 <tr>
-                    <th class="table__class table__titleColor" rowspan="8">waga</th>
+                    <th class="table__class table--titleColor" rowspan="8">waga</th>
                 </tr>
                 <tr class="table__color">
                     <td class="table__class" scope="row"></td>
