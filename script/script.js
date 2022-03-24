@@ -1,5 +1,5 @@
 {
-    function welcome() {
+    const welcome = () => {
         console.log("Witaj na mojej stronie");
     }
 
@@ -8,14 +8,6 @@
         const changeColorButton = document.querySelector(".js-changeColorButton");
         container.classList.toggle("whiteBackground") ? changeColorButton.innerText = "jasny" : changeColorButton.innerText = "ciemny";
     };
-
-    const init = () => {
-        const button = document.querySelector(".js-button");
-        button.addEventListener("click", onChangeColorClick);
-        welcome();
-    };
-
-    init();
 
     const date = () => {
         const season = document.querySelector(".js-season");
@@ -45,5 +37,13 @@
                 season.innerText = "jesień";
         }
     };
-    date();
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", onChangeColorClick);
+        welcome();
+        date();
+    };
+
+    init();
 }

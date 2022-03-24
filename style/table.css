@@ -18,19 +18,19 @@
     background-color: #d4d4d4;
 }
 
-.table--titleColor
+.table__cell--titleColor
 {
     background-color: #bbbbbb;
 }
 
-.table__class
+.table__cell
 {
     border: solid 1px #666;
     text-align: center;
     padding: 10px;
 }
 
-.table__class:hover
+.table__cell:hover
 {
     background-color: #bbbbbb;
 }
